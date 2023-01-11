@@ -27,8 +27,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- My Css -->
-    <link rel="stylesheet" href="this-style.css">
     <link rel="stylesheet" href="my-fucking-style.css">
+    <link rel="stylesheet" href="this-style.css">
 
     <title>My-Portfolio</title>
 </head>
@@ -61,61 +61,14 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pengalaman">
-                            Pengalaman
+                        <a class="nav-link" href="#Kreatifitas">
+                            Kreatifitas
                         </a>
                     </li>
-                    <li class="nav-item d-flex flex-column justify-content-start align-items-start dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="resourcesItems" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Portofolio
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang-akbar">
+                            Tentang Akbar
                         </a>
-                        <ul class="dropdown-menu __2022" aria-labelledby="resourcesItems">
-                            <li class="dropdown-item">
-                                <img src="https://akbar-ardiansyah.github.io/themes/front/images/ic_mentor.svg"
-                                    class="icon" alt="bwa-icon">
-                                <div>
-                                    <div class="title">Mentor Kami</div>
-                                    <p class="subtitle">
-                                        Terpercaya berpengalaman
-                                    </p>
-                                </div>
-                                <a class="stretched-link" href="https://akbar-ardiansyah.github.io/mentor"></a>
-                            </li>
-                            <li class="dropdown-item">
-                                <img src="https://akbar-ardiansyah.github.io/themes/front/images/ic_project.svg"
-                                    class="icon" alt="bwa-icon">
-                                <div>
-                                    <div class="title">HandBook Karir</div>
-                                    <p class="subtitle">
-                                        Panduan membangun karir impian
-                                    </p>
-                                </div>
-                                <a class="stretched-link" href="https://akbar-ardiansyah.github.io/handbook"></a>
-                            </li>
-                            <li class="dropdown-item">
-                                <img src="https://akbar-ardiansyah.github.io/themes/front/images/ic_video.svg"
-                                    class="icon" alt="bwa-icon">
-                                <div>
-                                    <div class="title">Student Rewards</div>
-                                    <p class="subtitle">
-                                        UI Design Kit &amp; HTML Template
-                                    </p>
-                                </div>
-                                <a class="stretched-link" href="https://akbar-ardiansyah.github.io/rewards"></a>
-                            </li>
-                            <li class="dropdown-item">
-                                <img src="https://akbar-ardiansyah.github.io/themes/front/images/ic_flag.svg"
-                                    class="icon" alt="bwa-icon">
-                                <div>
-                                    <div class="title">Ebooks</div>
-                                    <p class="subtitle">
-                                        Text-based tutorials
-                                    </p>
-                                </div>
-                                <a class="stretched-link" href="https://akbar-ardiansyah.github.io/ebook"></a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
                 <ul class="navbar-nav right-menu ms-auto">
@@ -166,8 +119,8 @@
     <!-- ============================
         # RUNING CARD
     ============================ -->
-    <section class="mastering-tools pt-50 pb-50" id="pengalaman">
-        <div class="container">
+    <section class="mastering-tools pt-50 pb-50">
+        <div class="container" id="Kreatifitas">
             <header class="front-text-group text-center">
                 <p class="text-support text-primary-green">Aktivitas Popular</p>
                 <h2 class="header-primary mb-0">Kreatifitas & pengalaman</h2>
@@ -387,24 +340,28 @@
         </div>
     </section>
     <!-- ============================
-        # PORTFOLIO
+        # tentang-akbar
     ============================ -->
     <section class="pt-50 pb-50 d-flex justify-content-start align-items-center" id="testimonial-section-v3">
-        <div class="container">
+        <div class="container" id="tentang-akbar">
             <div class="row d-flex justify-content-start align-items-center gx-0">
                 <div class="col-lg-5 col-12">
-                    <h4 class="text-primary-green hero-label mb-0">Lorem, ipsum.</h4>
+                    <h4 class="text-primary-green hero-label mb-0">Web Developer</h4>
                     <h1 class="header-title mb-0 text-white">
-                        Lorem, ipsum dolor. <br class="desktop">Lorem. 😊
+                        Akbar Ardiansyah<br class="desktop">
                     </h1>
                     <p class="subtitle">
-                        Lorem ipsum dolor sit amet. <br class="desktop">Lorem ipsum dolor sit amet consectetur.
+                        Full Stack Developer berpengalaman lebih dari 3 tahun.<br class="desktop"> Fokus di beberapa
+                        Bahasa Program &
+                        framework seperti Codeigniter, Bootstrap, jquery, MySQL dan saat ini saya tertarik mempelajari
+                        React JS,
                     </p>
                     <div class="d-flex justify-content-start align-items-center">
-                        <a class="btn btn-primary btn-testimonial btn-free-course"
-                            href="https://akbar-ardiansyah.github.io/kelas?main_leads=landingpage">Lorem, ipsum.</a>
-                        <a class="btn btn-light btn-testimonial btn-showcase text-medium"
-                            href="https://akbar-ardiansyah.github.io/showcase?main_leads=landingpage">Lorem, ipsum.</a>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="messages" placeholder="Tulis pesan anda"
+                                aria-label="Tulis pesan anda" aria-describedby="basic-addon2" autocomplete="off">
+                            <span class="input-group-text btn btn-primary" onclick="sendMesage()">kirim</span>
+                        </div>
                     </div>
                 </div>
                 <div
@@ -497,7 +454,7 @@
     <!-- ============================
         # Q&A
     ============================ -->
-    <section class="pb-100 d-flex justify-content-start align-items-center" id="faq-section-v3">
+    <section class="pb-100 d-flex justify-content-start align-items-center d-none" id="faq-section-v3">
         <div class="container">
             <div class="row d-flex justify-content-start align-items-start">
                 <div class="col-12 d-flex justify-content-center align-items-center flex-column">
@@ -651,6 +608,11 @@
                 lastVerticalScroll = verticalScroll;
             });
         });
+        function sendMesage() {
+            let msg = document.getElementById("messages");
+            let val = msg.value;
+            window.location.href = 'https://wa.me/6281263969866?text=' + val;
+        }
     </script>
 </body>
 
