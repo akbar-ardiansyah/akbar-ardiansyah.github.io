@@ -35,6 +35,6 @@ body {
 
 .bg-dotted {
     background: linear-gradient(90deg, var(--myFucking-white) 28px, transparent 1%) center,
-        linear-gradient(var(--myFucking-white) 28px, transparent 1%) center, #919191;
+        linear-gradient(var(--myFucking-white) 28px, transparent 1%) center, #0000006b;
     background-size: 30px 30px;
 }
