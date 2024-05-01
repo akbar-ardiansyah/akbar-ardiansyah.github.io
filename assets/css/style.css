@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #0A0F19;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    background-image: url('../../image/nav-line.svg');
+    background-position: center;
+    background-repeat: repeat-x;
+    margin-top: 1em;
+}
+
+.flip-container {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.flip {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.second-section {
+    background-image: url('../../image/ava-bg.png');
+    /* background-position: left; */
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+.custom-card {
+    background-color: #000000;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0.3px solid #7E7A7A;
+    background-image: url('../../image/card-background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.tagline {
+    font-size: 7.8em;
+    line-height: 0.9;
+    font-weight: 900;
+    margin-top: 2em !important;
+    margin-left: 0.6em;
+    background: -webkit-linear-gradient(-50deg, #EAEAEA, #7E7A7A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul.dots {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+ul.dots li {
+    margin: 0.3em;
+    /* padding: 10px; */
+}
+
+.bullet-red {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: red;
+    content: "";
+}
+
+.bullet-yellow {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: yellow;
+    content: "";
+}
+
+.bullet-green {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: green;
+    content: "";
+}
