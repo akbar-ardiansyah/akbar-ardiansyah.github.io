@@ -132,3 +132,51 @@ ul.dots li {
     right: 10px;
     cursor: pointer;
 } */
+
+@media (max-width: 500px) {
+
+    .text-style-linear,
+    .tagline {
+        font-size: 3.5rem !important;
+        text-wrap: pretty;
+    }
+
+    .hero-content {
+        display: none;
+    }
+
+    .profile-section .profile-bio {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .profile-section img {
+        width: 100px;
+    }
+
+    .profile-section {
+        text-align: center;
+    }
+
+    .custom-card {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+
+    .second-section {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 11em !important;
+    }
+
+    .card-title {
+        margin-top: 5em;
+        text-align: center;
+    }
+
+    .socsmed-icon {
+        margin: 12px 170px;
+    }
+}
