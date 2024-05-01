@@ -57,6 +57,12 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
+.text-style-linears {
+    background: -webkit-linear-gradient(-50deg, #EAEAEA, #7E7A7A, #a31c0d, #50638b, #95dd4d, #02339c, #038beb, #8f04b9, #eb048e, #015b38, #b20505);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 ul.socsmed-icon,
 ul.dots {
     list-style: none;
