@@ -6,6 +6,30 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.highlight-text {
+    /* display: inline-block; */
+    background: linear-gradient(-45deg, #25BDAD, #EC008C, #FFCB08, #ED1C24);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 nav {
     background-image: url('../../image/nav-line.svg');
     background-position: center;
